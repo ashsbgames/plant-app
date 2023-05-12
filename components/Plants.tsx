@@ -1,8 +1,8 @@
 import React from "react";
 import {View, Text} from "react-native"
 
-function Plants () {
-    return(
+const Plants = () => {
+    return (
         <View>
             <Text>Plants</Text>
         </View>
