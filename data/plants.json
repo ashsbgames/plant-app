@@ -1,0 +1,20 @@
+{
+  "plants": [
+    {
+      "plant_id": 1,
+      "plant_name": "Monstera",
+      "plant_type": "indoor",
+      "watering_frequency": "604800",
+      "last_watered": "1685002584",
+      "plant_image": "../assets/plantita.png"
+    },
+    {
+      "plant_id": 2,
+      "plant_name": "Cactus",
+      "plant_type": "indoor",
+      "watering_frequency": "864000",
+      "last_watered": "1684917000",
+      "plant_image": "../assets/plantita.png"
+    }
+  ]
+}
