@@ -16,19 +16,19 @@ function BottomNavigation() {
 
           if (route.name === "Home") {
             iconName = focused ? "home" : "home-outline";
-          } else if (route.name === "My Plants") {
+          } else if (route.name === "Plants") {
             iconName = focused ? "leaf" : "leaf-outline";
           }
 
           // You can return any component that you like here!
           return <Ionicons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: "tomato",
+        tabBarActiveTintColor: "rgb(255, 181, 167)",
         tabBarInactiveTintColor: "gray",
       })}
     >
       <Tab.Screen name="Home" component={Homepage} />
-      <Tab.Screen name="My Plants" component={Plants} />
+      <Tab.Screen name="Plants" component={Plants} />
     </Tab.Navigator>
   );
 }
